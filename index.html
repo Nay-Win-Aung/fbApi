@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook API Example</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Facebook API Example</h1>
+        <form id="apiForm">
+            <label for="apiUrl">API URL:</label>
+            <input type="text" id="apiUrl" name="apiUrl" placeholder="Enter API URL" required>
+            <label for="accessToken">Access Token:</label>
+            <input type="text" id="accessToken" name="accessToken" placeholder="Enter Access Token" required>
+            <button type="submit">Fetch Data</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
